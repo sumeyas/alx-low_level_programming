@@ -1,8 +1,9 @@
 #include<stdio.h>
 #include<string.h>
 
-/* I hate betty styling */
-
+/**
+ * prints string
+ */
 int main(void)
 {
 	char p[52];
