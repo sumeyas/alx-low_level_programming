@@ -2,13 +2,9 @@
 #include<string.h>
 
 /**
- * This program is printing a string
- */
-
-/**
- * main - prints a string
+ * main - description
  *
- * Return: 0
+ * Return: it returns a value.
  */
 int main(void)
 {
