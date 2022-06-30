@@ -1,8 +1,6 @@
 #include<stdio.h>
 #include<string.h>
 
-/* I hatebetty coing style */
-
 /**
  * prints string
  */
@@ -13,6 +11,5 @@ int main(void)
 	/*here it prints*/
 	strcpy(p, "\"Programming is like building a multilingual puzzle");
 	puts(p);
-	/* print */
 	return (0);
 }
