@@ -2,8 +2,8 @@
 
 int main(void)
 {
-	int ch;
-	int num;
+	int ch = 0;
+	char num;
 
 	for (ch = 0; ch <=9; ch++)
 	{
