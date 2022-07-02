@@ -4,9 +4,10 @@ int main(void)
 {
 	int i = 0;
 
-	for (i = '0'; i < '10'; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		putchar(i, ' ');
+		putchar(i);
+		putchar(', ');
 	}
 	putchar('\n');
 	return (0);
