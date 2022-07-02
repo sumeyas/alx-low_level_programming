@@ -1,5 +1,13 @@
 #include<stdio.h>
 
+
+/*
+ * main - Entry point
+ *
+ * Description: the program description
+ *
+ * Return: returns a value
+ */
 int main(void)
 {
 	int ch = 0;
