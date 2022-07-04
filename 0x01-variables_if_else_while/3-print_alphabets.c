@@ -1,5 +1,10 @@
 #include<stdio.h>
 
+/**
+ * main - descriprion
+ *
+ * Return: value
+ */
 int main(void)
 {
 	char ch;

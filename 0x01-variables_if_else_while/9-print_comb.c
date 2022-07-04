@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-/*
+/**
  * main - description
  *
  * Return: it returns a value.

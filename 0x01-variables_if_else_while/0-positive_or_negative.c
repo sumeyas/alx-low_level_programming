@@ -2,8 +2,10 @@
 #include <time.h>
 #include<stdio.h>
 
-/*
- *  main - description.
+/**
+ * main - description
+ *
+ * Return: returns value
  */
 int main(void)
 {
