@@ -1,28 +1,23 @@
 #include<stdio.h>
 
-/*
+/**
  * main - description
  *
  * Return: it returns value
  */
 int main(void)
 {
-	int ch = 0;
-	int num = 0;
+	int i = 0;
+	int j = 0;
 
-	for (ch = '0'; ch <= '9'; ch++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		for (num = '0'; num <='9'; num++)
+		for (j = '0'; j <= '9';j++)
 		{
-			if (num != ch)
-			{
-				putchar(ch);
-				putchar(num);
-				if (ch+num != 89)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+			if (i < j){
+				putchar(i);
+				putchar(j);
+				putchar(',');
 			}
 		}
 	}
