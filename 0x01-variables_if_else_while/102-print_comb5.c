@@ -20,16 +20,18 @@ int main(void)
 			{
 				for (j = '0'; j <= '9'; j++)
 				{
-					putchar(c);
-					putchar(k);
-					putchar(' ');
-					putchar(i);
-					putchar(j);
-					if (!(c == '9' && k == '8' && i == '9' && j == '9'))
+					if (k > j)
 					{
-						putchar(',');
+						putchar(c);
+						putchar(k);
 						putchar(' ');
-					}
+						putchar(i);
+						putchar(j);
+						if (!(c == '9' && k == '8' && i == '9' && j == '9'))
+						{
+							putchar(',');
+							putchar(' ');
+					}	}
 				}
 			}	
 	}	}
