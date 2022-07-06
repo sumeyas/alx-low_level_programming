@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int  _putchar(int char* value)
+int  _putchar(int ch)
 {
 	return (0);
 }
