@@ -3,7 +3,7 @@
 /**
  * _islower - description
  *
- * c: the integer
+ * @c: the integer
  *
  * Return: integer
  */
