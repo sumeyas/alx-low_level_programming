@@ -9,4 +9,5 @@ void print_alphabet()
 	{
 		_putchar(ch);
 	}
+	return;
 }
