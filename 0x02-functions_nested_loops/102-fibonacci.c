@@ -25,6 +25,7 @@ int main(void)
 	while (n < 50)
 	{
 		printf("%d", fib(n));
+		getchar();
 		putchar(',');
 		putchar(' ');
 		n++;
