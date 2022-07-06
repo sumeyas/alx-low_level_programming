@@ -1,5 +1,10 @@
 #include<stdio.h>
 
+/**
+ * main - desc
+ *
+ * Return: value
+ */
 int main(void)
 {
 	int sum = 0;
@@ -13,6 +18,7 @@ int main(void)
 		}
 		n++;
 	}
+	printf("%d", sum);
 	putchar('\n');
 	return (0);
 }
