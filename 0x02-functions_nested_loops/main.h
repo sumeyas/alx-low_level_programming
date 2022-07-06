@@ -2,5 +2,5 @@
 
 int  _putchar(int ch)
 {
-	return (0);
+	return (ch);
 }
