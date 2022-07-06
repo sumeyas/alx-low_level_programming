@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign _ description
+ * print_sign - description
  *
  * @n: param
  *
