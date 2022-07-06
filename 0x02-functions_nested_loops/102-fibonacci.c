@@ -11,10 +11,7 @@ int fib(int n)
 	{
 		return (n);
 	}
-	else
-	{
-		return (fib(n - 2) + fib(n - 1));
-	}
+		return fib(n - 2) + fib(n - 1);
 }
 
 /**
