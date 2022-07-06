@@ -30,6 +30,7 @@ int main(void)
 		printf("%d", fib(n));
 		putchar(',');
 		putchar(' ');
+		n++;
 	}
 	putchar('\n');
 	return (0);
