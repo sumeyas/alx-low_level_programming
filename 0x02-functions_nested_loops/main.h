@@ -1,7 +1,6 @@
 #include<stdio.h>
 
-int  _putchar(const char *string)
+int  _putchar(int char)
 {
-	putchar("string");
 	return (0);
 }
