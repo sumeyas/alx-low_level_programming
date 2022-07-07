@@ -3,8 +3,6 @@
 
 int main(void)
 {
-	char c;
-	c = 'A';
-	printf("%c", _isupper(c));
+	print_numbers();
 	return (0);
 }
