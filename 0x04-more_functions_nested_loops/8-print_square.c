@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * print_square - description
+ * print_square - descriptio
+ * @size: param
  */
 void print_square(int size)
 {
