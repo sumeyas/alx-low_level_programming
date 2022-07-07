@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  * main - description
@@ -13,9 +13,9 @@ int main(void)
 
 	i = 0;
 
-	while (i < 10)
+	while (i < 10)/*i is stuck on 0*/
 	{
-		putchar(i);/*i is not incrementing*/
+		putchar(i);
 	}
 
 	printf("infinite loop avoided! \\o/\n");
