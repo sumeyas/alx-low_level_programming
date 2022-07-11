@@ -15,10 +15,10 @@ void print_rev(char *s)
 		s++;
 	}
 
-	 n = count - 1;
+	 n = count;
 	while (n > 0)
 	{
-		_putchar(s[n]);
+		_putchar(*s[n]);
 		n--;
 	}
 	
