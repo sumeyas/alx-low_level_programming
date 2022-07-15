@@ -1,34 +1,22 @@
 #include<stdio.h>
 
 /**
- * fib - desc
- * @n: para
- * Return: value
- */
-int fib(int n)
-{
-	if (n <= 1)
-	{
-		return (n);
-	}
-	return (fib(n - 2) + fib(n - 1));
-}
-
-/**
  * main- descr
  * Return: value
  */
 int main(void)
 {
-	int n = 1;
+	long pri = 1;
+	long sec = 2;
+	long sum;
 
-	while (n < 50)
+	printf("1, 2");
+	while (sum < 20365011073)
 	{
-		printf("%d", fib(n));
-		getchar();
-		putchar(',');
-		putchar(' ');
-		n++;
+		sum = pri + sec;
+		printf(", %lu", sum);
+		pri = sec;
+		sec = sum;
 	}
 	putchar('\n');
 	return (0);
